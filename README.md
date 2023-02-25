@@ -14,7 +14,7 @@ If SCP-10687 says "Detonating the thermonuclear bomb."
 
 ## Run.
 
-If you woke up on a Friday Night
+If you wake up on a Friday Night
 
 ## Running won't save you.
 
