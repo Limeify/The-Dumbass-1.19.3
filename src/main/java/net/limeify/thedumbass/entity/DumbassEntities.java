@@ -10,7 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class ModEntities
+public class DumbassEntities
 {
-    public static final EntityType<ThursdayMorningPiglin> THURSDAY_MORNING_PIGLIN = Registry.register(Registries.ENTITY_TYPE, new Identifier(TheDumbass.MOD_ID, "tmp"), FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, ThursdayMorningPiglin::new).dimensions(EntityDimensions.fixed(1, 2)).build());
+    public static final EntityType<ThursdayMorningPiglin> THURSDAY_MORNING_PIGLIN = Registry.register(Registries.ENTITY_TYPE, new Identifier(TheDumbass.MOD_ID, "tmp"), FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, ThursdayMorningPiglin::new).dimensions(EntityDimensions.fixed(0.5f, 2)).build());
 }

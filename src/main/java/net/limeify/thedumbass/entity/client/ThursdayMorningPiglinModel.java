@@ -9,4 +9,9 @@ public class ThursdayMorningPiglinModel extends DefaultedEntityGeoModel<Thursday
     public ThursdayMorningPiglinModel() {
         super(new Identifier(TheDumbass.MOD_ID, "tmp/tmp"), true);
     }
+
+    @Override
+    public void applyMolangQueries(ThursdayMorningPiglin animatable, double animTime) {
+        super.applyMolangQueries(animatable, animTime);
+    }
 }
